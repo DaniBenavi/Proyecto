@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <title>Operadores Aritmeticos</title>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Proyecto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,7 @@
 			</button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -50,7 +50,8 @@
                 </form>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <?php require_once "menu.php"?>
 </head>
 
 <body>
@@ -60,7 +61,7 @@
             <div class="col-6 p-5 bg-white shadow-lg rounded">
                 <h3>Operadores aritmeticos</h3>
                 <hr />
-                <form method="post" action="aritmeticos.php">
+                <form method="post" action="calculos_aritmeticos.php">
                     <div class="form-group">
                         <label for="valor1">Valor 1:</label>
                         <input id="valor1" class="form-control" type="text" name="valor1" required autocomplete="off">
