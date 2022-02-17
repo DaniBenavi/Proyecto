@@ -77,8 +77,8 @@
                             <option value="!=">Diferente</option>
                             <option value=">">Mayor que</option>
                             <option value="<">Menor que</option>
-                            <option value=">=">Mayor o igual</option>
-                            <option value="<=">Menor o igual</option>
+                            <option value=">=">Mayor o igual que</option>
+                            <option value="<=">Menor o igual que</option>
                         </select>
                     </div>
                     <!-- <div class="form-group">
