@@ -19,6 +19,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="aritmetico.php">Operadores aritmeticos</a></li>
                     <li><a class="dropdown-item" href="op_comparacion.php">Operadores de comparacion</a></li>
+                    <li><a class="dropdown-item" href="Productos.php">Registro de Productos</a></li>
                     <li>
                         <hr class="dropdown-divider" />
                     </li>
